@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-main-color);
+  color: var(--lights-off);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 60px;
+  z-index: 1;
+}
+
+.navbar:hover {
+  width: 160px;
+  transition: 250ms;
+}
+
+.navbar:hover .icon-container {
+  flex-direction: row;
+}
+
+.navbar:hover .icon-name {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80%;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.icon-container:hover {
+  background-color: rgb(58, 57,  57);
+  cursor: pointer;
+  color: var(--main-color);
+}
+
+.icon-name {
+  display: none;
+}
