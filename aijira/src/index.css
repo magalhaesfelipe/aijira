@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(180, 4, 71);
+  color: white;
+}
+
+.header {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  height: 130px;
+  color: rgba(0, 235, 114, 0.815);
+  border-bottom: solid rgba(0, 235, 114, 0.815);
+  margin-bottom: 20px;
+}
+
+h1 {
+  padding-top: 40px
+}
+
+.grid {
+  background-color: rgba(0, 235, 114, 0.815);
+  display: flex;
+}
+
+.manga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: brown;
+  margin: 10px;
+  width: 500px;
+  height: 320px;
+}
+
+img {
+  height: 250px;
+  width: 192px;
+}
+
+h4 {
+  margin-top: 10px;
+}
