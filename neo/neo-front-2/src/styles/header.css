@@ -1,0 +1,56 @@
+.titleHead {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(23, 23, 23, 0);
+}
+
+.title-container p {
+  font-family: "Wallpoet", sans-serif;
+  font-size: 140px;
+  color: rgb(255, 249, 249);
+  padding-top: 0px;
+  cursor: default;
+}
+
+.title-container p:hover {
+  color: var(--main-color);
+  transition: 240ms;
+}
+
+.title-container {
+  display: inline-block;
+}
+
+.bar-header {
+  height: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  top: 0;
+  right: 10px;
+  left: 10px;
+  font-family: "Wallpoet", sans-serif;
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.barheader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 95%;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-color: var(--main-color);
+}
+
+.bar-header-container p {
+  margin-left: 15px;
+}

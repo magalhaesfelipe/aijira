@@ -1,0 +1,51 @@
+body {
+  height: 1000px;
+}
+
+h3 {
+ margin: 10px; 
+}
+.mangatop-container {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.mangatop-container img {
+  height: 300px;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.manga-information {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 700px;
+}
+
+.manga-information p {
+  margin-left: 10px;
+}
+
+.chapters-container {
+  color: var(--main-color);
+  width: 80%;
+  margin-top: 80px;
+  padding-left: 60px;
+}
+
+.chap {
+  margin-bottom: 0.1px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: solid;
+  border-radius: 3px;
+}
+
+.chap:hover {
+  color: rgb(213, 213, 213);
+}
+
+
+

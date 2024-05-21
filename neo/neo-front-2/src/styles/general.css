@@ -1,0 +1,42 @@
+:root {
+  font-size: 16px;
+  font-family: 'Open Sans';
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #232323;
+  --bg-secondary: #141414;
+  --transition-speed: 600ms;
+  --main-color: rgb(41, 221, 0);
+  --background-main-color: rgb(26, 26, 26);
+  --lights-off: rgb(175, 175, 175);
+
+  /*rgb(41, 221, 0)*/
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  padding-left: 80px;
+  background-color: var(--background-main-color);
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(20, 20, 20);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
+/*
+.back-video {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+*/
