@@ -1,0 +1,22 @@
+.sc {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.grid {
+  column-count: 4; /* number of columns */
+  column-gap: 15px;
+}
+
+.block {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.block img {
+  width: 100%;
+  display: block;
+  border-radius: 2px;
+}
