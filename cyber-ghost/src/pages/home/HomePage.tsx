@@ -6,7 +6,7 @@ import image4 from "./images/img4.jpg";
 import image5 from "./images/img5.jpg";
 import image6 from "./images/img6.jpg";
 
-function App() {
+function HomePage() {
   return (
     <div className="App">
       <div className="Header">
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
