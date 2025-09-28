@@ -1,5 +1,5 @@
 import "./styles.css";
-import image1 from "./images/img1.jpg";
+import img1 from "./images/img1.jpg";
 import image2 from "./images/img2.jpg";
 import image3 from "./images/img3.jpg";
 import image4 from "./images/img4.jpg";
@@ -14,7 +14,7 @@ function App() {
       </div>
       <div className="grid-wrapper">
         <div>
-          <img src={image1} />
+          <img src={img1} />
         </div>
         <div>
           <img src={image2} />
