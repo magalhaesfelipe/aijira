@@ -1,0 +1,50 @@
+.sc {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc h3 {
+  font-size: 30px;
+  color: #e0ffff; /* near-white turquoise */
+  z-index: 1;
+  text-shadow: 0 0 5px #00fefc, /* small sharp glow */ 0 0 10px #00fefc,
+    /* medium glow */ 0 0 20px #00fefc, /* stronger glow */ 0 0 40px #00fefc,
+    /* large neon glow */ 0 0 80px #00fefc; /* ultra glow effect */
+}
+
+.txtContainer {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 0; /* make it square */
+  cursor: pointer;
+}
+
+.txtContainer::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border-radius: 0; /* square border */
+  border: 2px solid rgba(0, 254, 252, 0.5);
+  box-shadow: 0 0 6px rgba(0, 254, 252, 0.3), 0 0 12px rgba(0, 254, 252, 0.2);
+  animation: spin 6s linear infinite; /* spin animation */
+  z-index: 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

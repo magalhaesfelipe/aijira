@@ -9,6 +9,7 @@
 }
 
 .sc h1 {
+  cursor: pointer;
   font-size: 40px;
   color: #e0ffff; /* near-white turquoise */
   text-shadow: 0 0 5px #00fefc, /* small sharp glow */ 0 0 10px #00fefc,
