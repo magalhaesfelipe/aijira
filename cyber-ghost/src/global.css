@@ -1,6 +1,7 @@
 :root {
   --pc: rgb(163, 0, 63);
   --sc: #00c4b3;
+  --scrollbar-width: 4px;
 }
 
 * {
@@ -17,4 +18,19 @@ body {
 
 div {
   max-width: 100%;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* track color */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00d9ff; /* thumb color */
+  border-radius: 0;
+  border: 3px solid var(--pc); /* gives a padding effect around the scrollbar */
 }

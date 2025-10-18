@@ -10,23 +10,23 @@
     "style": "npx stylelint '**/*.css' --fix"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/react": "^19.1.14",
-    "@types/react-dom": "^19.1.9",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^7.9.3",
-    "typescript": "^5.9.2",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.4",
+    "typescript": "^5.9.3",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@types/css-modules": "^1.0.5",
     "@vitejs/plugin-react": "^5.0.4",
-    "stylelint": "^16.24.0",
-    "stylelint-config-standard": "^39.0.0",
-    "vite": "^7.1.7"
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1",
+    "vite": "^7.1.10"
   },
   "eslintConfig": {
     "extends": [
