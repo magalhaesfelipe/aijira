@@ -20,12 +20,49 @@
 }
 
 .title2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   position: absolute;
-  left: 3%;
+  left: 0;
+  top: 0;
   height: 100%;
+  width: 62%;
+  overflow: hidden;
   display: flex;
   align-items: center;
+  white-space: nowrap;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  animation: scroll-left 2s linear infinite;
+  width: max-content;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title2 h1 {
+  white-space: nowrap;
+  margin: 0;
+  font-size: 28px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #e0ffff;
+  text-shadow: 0 0 5px #00fefc, 0 0 10px #00fefc, 0 0 20px #00fefc;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-45%);
+  }
 }
 
 .imgContainer {
