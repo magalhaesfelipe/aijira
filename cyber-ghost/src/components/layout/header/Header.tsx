@@ -4,6 +4,9 @@ import icon from "../../../assets/icons/nearby_24dp_E3E3E3_FILL0_wght400_GRAD0_o
 const Header = () => {
   return (
     <div className={s.sc}>
+      <div className={s.title2}>
+        <h1>A CYBERPUNK COLLECTION</h1>
+      </div>
       <div className={s.imgContainer} title="About">
         <img src={icon} alt="Nearby Icon" />
       </div>

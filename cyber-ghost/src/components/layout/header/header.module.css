@@ -6,6 +6,8 @@
   column-gap: 3%;
   padding: 20px;
   padding-right: 5%;
+  background-color: rgb(153, 0, 51);
+  position: relative;
 }
 
 .sc h1 {
@@ -15,6 +17,15 @@
   text-shadow: 0 0 5px #00fefc, /* small sharp glow */ 0 0 10px #00fefc,
     /* medium glow */ 0 0 20px #00fefc, /* stronger glow */ 0 0 40px #00fefc,
     /* large neon glow */ 0 0 80px #00fefc; /* ultra glow effect */
+}
+
+.title2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  left: 3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .imgContainer {
