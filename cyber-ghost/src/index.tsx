@@ -17,6 +17,7 @@ ReactDOM.createRoot(rootElement).render(
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/hypercube" element={<HomePage />} />
         </Route>
       </Routes>
     </BrowserRouter>
